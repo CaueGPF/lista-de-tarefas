@@ -198,8 +198,7 @@ export default function Home() {
                 <AlertDialogContent>
                   <AlertDialogHeader>
                     <AlertDialogTitle>
-                      Tem certeza que deseja excluir {taskList.filter((task) => task.done).length}
-                      itens?
+                      Tem certeza que deseja excluir {taskList.filter((task) => task.done).length} itens?
                     </AlertDialogTitle>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
